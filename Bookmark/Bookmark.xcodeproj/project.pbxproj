@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		683FA7F71804DFA000D0A2BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683FA7F61804DFA000D0A2BC /* UIKit.framework */; };
+		683FA7F91804DFA000D0A2BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683FA7F81804DFA000D0A2BC /* Foundation.framework */; };
+		683FA7FB1804DFA000D0A2BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683FA7FA1804DFA000D0A2BC /* CoreGraphics.framework */; };
+		683FA8011804DFA000D0A2BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 683FA7FF1804DFA000D0A2BC /* InfoPlist.strings */; };
+		683FA8031804DFA000D0A2BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 683FA8021804DFA000D0A2BC /* main.m */; };
+		683FA8071804DFA000D0A2BC /* BookmarkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 683FA8061804DFA000D0A2BC /* BookmarkAppDelegate.m */; };
+		683FA80A1804DFA000D0A2BC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683FA8081804DFA000D0A2BC /* MainStoryboard.storyboard */; };
+		683FA80D1804DFA000D0A2BC /* BookmarkMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683FA80C1804DFA000D0A2BC /* BookmarkMasterViewController.m */; };
+		683FA8101804DFA000D0A2BC /* BookmarkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683FA80F1804DFA000D0A2BC /* BookmarkDetailViewController.m */; };
+		683FA8181804DFF400D0A2BC /* BookmarkEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 683FA8171804DFF400D0A2BC /* BookmarkEntry.m */; };
+		683FA81B1804E21700D0A2BC /* BookmarkEntryDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683FA81A1804E21700D0A2BC /* BookmarkEntryDataController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		683FA7F21804DFA000D0A2BC /* Bookmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		683FA7F61804DFA000D0A2BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		683FA7F81804DFA000D0A2BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		683FA7FA1804DFA000D0A2BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		683FA7FE1804DFA000D0A2BC /* Bookmark-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bookmark-Info.plist"; sourceTree = "<group>"; };
+		683FA8001804DFA000D0A2BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		683FA8021804DFA000D0A2BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		683FA8041804DFA000D0A2BC /* Bookmark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bookmark-Prefix.pch"; sourceTree = "<group>"; };
+		683FA8051804DFA000D0A2BC /* BookmarkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookmarkAppDelegate.h; sourceTree = "<group>"; };
+		683FA8061804DFA000D0A2BC /* BookmarkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookmarkAppDelegate.m; sourceTree = "<group>"; };
+		683FA8091804DFA000D0A2BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		683FA80B1804DFA000D0A2BC /* BookmarkMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookmarkMasterViewController.h; sourceTree = "<group>"; };
+		683FA80C1804DFA000D0A2BC /* BookmarkMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookmarkMasterViewController.m; sourceTree = "<group>"; };
+		683FA80E1804DFA000D0A2BC /* BookmarkDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookmarkDetailViewController.h; sourceTree = "<group>"; };
+		683FA80F1804DFA000D0A2BC /* BookmarkDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookmarkDetailViewController.m; sourceTree = "<group>"; };
+		683FA8161804DFF400D0A2BC /* BookmarkEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkEntry.h; sourceTree = SOURCE_ROOT; };
+		683FA8171804DFF400D0A2BC /* BookmarkEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkEntry.m; sourceTree = SOURCE_ROOT; };
+		683FA8191804E21700D0A2BC /* BookmarkEntryDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkEntryDataController.h; sourceTree = "<group>"; };
+		683FA81A1804E21700D0A2BC /* BookmarkEntryDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkEntryDataController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		683FA7EF1804DFA000D0A2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683FA7F71804DFA000D0A2BC /* UIKit.framework in Frameworks */,
+				683FA7F91804DFA000D0A2BC /* Foundation.framework in Frameworks */,
+				683FA7FB1804DFA000D0A2BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		683FA7E71804DFA000D0A2BC = {
+			isa = PBXGroup;
+			children = (
+				683FA7FC1804DFA000D0A2BC /* Bookmark */,
+				683FA7F51804DFA000D0A2BC /* Frameworks */,
+				683FA7F31804DFA000D0A2BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		683FA7F31804DFA000D0A2BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				683FA7F21804DFA000D0A2BC /* Bookmark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		683FA7F51804DFA000D0A2BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				683FA7F61804DFA000D0A2BC /* UIKit.framework */,
+				683FA7F81804DFA000D0A2BC /* Foundation.framework */,
+				683FA7FA1804DFA000D0A2BC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		683FA7FC1804DFA000D0A2BC /* Bookmark */ = {
+			isa = PBXGroup;
+			children = (
+				683FA8161804DFF400D0A2BC /* BookmarkEntry.h */,
+				683FA8171804DFF400D0A2BC /* BookmarkEntry.m */,
+				683FA8051804DFA000D0A2BC /* BookmarkAppDelegate.h */,
+				683FA8061804DFA000D0A2BC /* BookmarkAppDelegate.m */,
+				683FA8081804DFA000D0A2BC /* MainStoryboard.storyboard */,
+				683FA80B1804DFA000D0A2BC /* BookmarkMasterViewController.h */,
+				683FA80C1804DFA000D0A2BC /* BookmarkMasterViewController.m */,
+				683FA80E1804DFA000D0A2BC /* BookmarkDetailViewController.h */,
+				683FA80F1804DFA000D0A2BC /* BookmarkDetailViewController.m */,
+				683FA8191804E21700D0A2BC /* BookmarkEntryDataController.h */,
+				683FA81A1804E21700D0A2BC /* BookmarkEntryDataController.m */,
+				683FA7FD1804DFA000D0A2BC /* Supporting Files */,
+			);
+			path = Bookmark;
+			sourceTree = "<group>";
+		};
+		683FA7FD1804DFA000D0A2BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				683FA7FE1804DFA000D0A2BC /* Bookmark-Info.plist */,
+				683FA7FF1804DFA000D0A2BC /* InfoPlist.strings */,
+				683FA8021804DFA000D0A2BC /* main.m */,
+				683FA8041804DFA000D0A2BC /* Bookmark-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		683FA7F11804DFA000D0A2BC /* Bookmark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 683FA8131804DFA000D0A2BC /* Build configuration list for PBXNativeTarget "Bookmark" */;
+			buildPhases = (
+				683FA7EE1804DFA000D0A2BC /* Sources */,
+				683FA7EF1804DFA000D0A2BC /* Frameworks */,
+				683FA7F01804DFA000D0A2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bookmark;
+			productName = Bookmark;
+			productReference = 683FA7F21804DFA000D0A2BC /* Bookmark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		683FA7E91804DFA000D0A2BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 683FA7EC1804DFA000D0A2BC /* Build configuration list for PBXProject "Bookmark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 683FA7E71804DFA000D0A2BC;
+			productRefGroup = 683FA7F31804DFA000D0A2BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				683FA7F11804DFA000D0A2BC /* Bookmark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		683FA7F01804DFA000D0A2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683FA8011804DFA000D0A2BC /* InfoPlist.strings in Resources */,
+				683FA80A1804DFA000D0A2BC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		683FA7EE1804DFA000D0A2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683FA8031804DFA000D0A2BC /* main.m in Sources */,
+				683FA8071804DFA000D0A2BC /* BookmarkAppDelegate.m in Sources */,
+				683FA80D1804DFA000D0A2BC /* BookmarkMasterViewController.m in Sources */,
+				683FA8101804DFA000D0A2BC /* BookmarkDetailViewController.m in Sources */,
+				683FA8181804DFF400D0A2BC /* BookmarkEntry.m in Sources */,
+				683FA81B1804E21700D0A2BC /* BookmarkEntryDataController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		683FA7FF1804DFA000D0A2BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				683FA8001804DFA000D0A2BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		683FA8081804DFA000D0A2BC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				683FA8091804DFA000D0A2BC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		683FA8111804DFA000D0A2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		683FA8121804DFA000D0A2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		683FA8141804DFA000D0A2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bookmark/Bookmark-Prefix.pch";
+				INFOPLIST_FILE = "Bookmark/Bookmark-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		683FA8151804DFA000D0A2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bookmark/Bookmark-Prefix.pch";
+				INFOPLIST_FILE = "Bookmark/Bookmark-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		683FA7EC1804DFA000D0A2BC /* Build configuration list for PBXProject "Bookmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683FA8111804DFA000D0A2BC /* Debug */,
+				683FA8121804DFA000D0A2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		683FA8131804DFA000D0A2BC /* Build configuration list for PBXNativeTarget "Bookmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683FA8141804DFA000D0A2BC /* Debug */,
+				683FA8151804DFA000D0A2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 683FA7E91804DFA000D0A2BC /* Project object */;
+}

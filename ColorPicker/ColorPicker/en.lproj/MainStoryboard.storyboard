@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="10K549" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="5">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <viewController id="2" customClass="ColorPickerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sample Text" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="5yz-Rg-bQ5">
+                                <rect key="frame" x="20" y="20" width="280" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Font Color" lineBreakMode="tailTruncation" minimumFontSize="10" id="PcZ-vT-VnZ">
+                                <rect key="frame" x="20" y="69" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Red" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="LEP-a7-gHA">
+                                <rect key="frame" x="19" y="99" width="52" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" id="oVm-nE-q6E">
+                                <rect key="frame" x="77" y="98" width="174" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="2" eventType="valueChanged" id="02O-qR-Xlo"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0.00" lineBreakMode="tailTruncation" minimumFontSize="10" id="2yT-4h-rKb">
+                                <rect key="frame" x="257" y="99" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Green" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="YS7-VX-acQ">
+                                <rect key="frame" x="19" y="128" width="52" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" id="5x7-j4-Cfy">
+                                <rect key="frame" x="77" y="128" width="174" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="2" eventType="valueChanged" id="kUG-y3-6Dr"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0.00" lineBreakMode="tailTruncation" minimumFontSize="10" id="Osm-GM-sdb">
+                                <rect key="frame" x="257" y="128" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Blue" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="W5a-Qh-omj">
+                                <rect key="frame" x="19" y="158" width="52" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" id="jxn-Mg-PVx">
+                                <rect key="frame" x="77" y="158" width="174" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="2" eventType="valueChanged" id="1ny-OK-PS0"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0.00" lineBreakMode="tailTruncation" minimumFontSize="10" id="AKd-0D-vdA">
+                                <rect key="frame" x="257" y="158" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Presets" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="zjA-xH-E86">
+                                <rect key="frame" x="24" y="188" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" momentary="YES" id="1IO-FX-tba">
+                                <rect key="frame" x="19" y="224" width="285" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Gold"/>
+                                    <segment title="Tan"/>
+                                    <segment title="Peru"/>
+                                    <segment title="Pink"/>
+                                    <segment title="Plum"/>
+                                    <segment title="Teal"/>
+                                </segments>
+                            </segmentedControl>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Background color" lineBreakMode="tailTruncation" minimumFontSize="10" id="LGw-9M-5BS">
+                                <rect key="frame" x="19" y="261" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Red" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="vsw-WA-KGY">
+                                <rect key="frame" x="19" y="290" width="52" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" id="1Kh-5Y-Wpl">
+                                <rect key="frame" x="77" y="290" width="174" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="2" eventType="valueChanged" id="paW-Jb-Ylo"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1.00" lineBreakMode="tailTruncation" minimumFontSize="10" id="eEl-VM-hVl">
+                                <rect key="frame" x="257" y="290" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Green" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="dyk-Zj-VsB">
+                                <rect key="frame" x="19" y="319" width="52" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" id="V3A-nS-TUh">
+                                <rect key="frame" x="77" y="320" width="174" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="2" eventType="valueChanged" id="NOp-kl-nAa"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1.00" lineBreakMode="tailTruncation" minimumFontSize="10" id="wB8-Ka-Kb1">
+                                <rect key="frame" x="257" y="319" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Blue" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="ZMJ-3U-8vs">
+                                <rect key="frame" x="19" y="349" width="52" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" id="L7v-4T-BWQ">
+                                <rect key="frame" x="77" y="350" width="174" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="2" eventType="valueChanged" id="sO0-7E-9Ju"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1.00" lineBreakMode="tailTruncation" minimumFontSize="10" id="6pC-Ko-Umz">
+                                <rect key="frame" x="257" y="349" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Presets" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="1mR-3s-9ot">
+                                <rect key="frame" x="22" y="373" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" momentary="YES" id="OnV-95-cPr">
+                                <rect key="frame" x="17" y="410" width="285" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Gold"/>
+                                    <segment title="Tan"/>
+                                    <segment title="Peru"/>
+                                    <segment title="Pink"/>
+                                    <segment title="Plum"/>
+                                    <segment title="Teal"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="bgSegmentedControl" destination="OnV-95-cPr" id="kDE-n8-NKL"/>
+                        <outlet property="blueBGFontLabel" destination="6pC-Ko-Umz" id="Iwp-h7-cCd"/>
+                        <outlet property="blueBGSlider" destination="L7v-4T-BWQ" id="675-iD-baZ"/>
+                        <outlet property="blueFontLabel" destination="AKd-0D-vdA" id="oEm-Pr-Oaf"/>
+                        <outlet property="blueFontSlider" destination="jxn-Mg-PVx" id="gOo-93-xgq"/>
+                        <outlet property="greenBGFontLabel" destination="wB8-Ka-Kb1" id="aEe-q4-6oR"/>
+                        <outlet property="greenBGSlider" destination="V3A-nS-TUh" id="nlp-iN-THQ"/>
+                        <outlet property="greenFontLabel" destination="Osm-GM-sdb" id="Wjl-DG-18g"/>
+                        <outlet property="greenFontSlider" destination="5x7-j4-Cfy" id="age-qw-ohH"/>
+                        <outlet property="redBGFontLabel" destination="eEl-VM-hVl" id="wOg-lH-YdS"/>
+                        <outlet property="redBGSlider" destination="1Kh-5Y-Wpl" id="2im-QP-3dK"/>
+                        <outlet property="redFontLabel" destination="2yT-4h-rKb" id="vjo-pc-1pC"/>
+                        <outlet property="redFontSlider" destination="oVm-nE-q6E" id="Wo6-o9-Ucf"/>
+                        <outlet property="sampleText" destination="5yz-Rg-bQ5" id="Adh-ir-8DG"/>
+                        <outlet property="segmentedControl" destination="1IO-FX-tba" id="5Nj-ZK-7BV"/>
+                    </connections>
+                </viewController>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="ColorPickerViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ColorPickerViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="sliderValueChanged:"/>
+                <relationship kind="outlet" name="bgSegmentedControl" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="blueBGFontLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="blueBGSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="blueFontLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="blueFontSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="greenBGFontLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="greenBGSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="greenFontLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="greenFontSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="redBGFontLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="redBGSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="redFontLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="redFontSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="sampleText" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="segmentedControl" candidateClass="UISegmentedControl"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
