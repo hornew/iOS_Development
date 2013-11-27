@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68DA9C75183C345D0052E01A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DA9C74183C345D0052E01A /* UIKit.framework */; };
+		68DA9C77183C345D0052E01A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DA9C76183C345D0052E01A /* Foundation.framework */; };
+		68DA9C79183C345D0052E01A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DA9C78183C345D0052E01A /* CoreGraphics.framework */; };
+		68DA9C7F183C345D0052E01A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68DA9C7D183C345D0052E01A /* InfoPlist.strings */; };
+		68DA9C81183C345D0052E01A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DA9C80183C345D0052E01A /* main.m */; };
+		68DA9C85183C345D0052E01A /* FGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DA9C84183C345D0052E01A /* FGAppDelegate.m */; };
+		68DA9C88183C345D0052E01A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DA9C86183C345D0052E01A /* MainStoryboard.storyboard */; };
+		68DA9C8B183C345D0052E01A /* FGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DA9C8A183C345D0052E01A /* FGViewController.m */; };
+		68DA9C95183C37840052E01A /* boing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68DA9C91183C37840052E01A /* boing.wav */; };
+		68DA9C96183C37840052E01A /* iHaveUnderstanding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68DA9C92183C37840052E01A /* iHaveUnderstanding.wav */; };
+		68DA9C97183C37840052E01A /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68DA9C93183C37840052E01A /* pop.wav */; };
+		68DA9C98183C37840052E01A /* tweet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68DA9C94183C37840052E01A /* tweet.wav */; };
+		68DA9C9A183C38280052E01A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DA9C99183C38280052E01A /* AudioToolbox.framework */; };
+		68DA9C9C183C3C8D0052E01A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DA9C9B183C3C8D0052E01A /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68DA9C70183C345D0052E01A /* FoleyGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoleyGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DA9C74183C345D0052E01A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68DA9C76183C345D0052E01A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68DA9C78183C345D0052E01A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68DA9C7C183C345D0052E01A /* FoleyGen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoleyGen-Info.plist"; sourceTree = "<group>"; };
+		68DA9C7E183C345D0052E01A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68DA9C80183C345D0052E01A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68DA9C82183C345D0052E01A /* FoleyGen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoleyGen-Prefix.pch"; sourceTree = "<group>"; };
+		68DA9C83183C345D0052E01A /* FGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGAppDelegate.h; sourceTree = "<group>"; };
+		68DA9C84183C345D0052E01A /* FGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGAppDelegate.m; sourceTree = "<group>"; };
+		68DA9C87183C345D0052E01A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		68DA9C89183C345D0052E01A /* FGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGViewController.h; sourceTree = "<group>"; };
+		68DA9C8A183C345D0052E01A /* FGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGViewController.m; sourceTree = "<group>"; };
+		68DA9C91183C37840052E01A /* boing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = boing.wav; sourceTree = "<group>"; };
+		68DA9C92183C37840052E01A /* iHaveUnderstanding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = iHaveUnderstanding.wav; sourceTree = "<group>"; };
+		68DA9C93183C37840052E01A /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
+		68DA9C94183C37840052E01A /* tweet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tweet.wav; sourceTree = "<group>"; };
+		68DA9C99183C38280052E01A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		68DA9C9B183C3C8D0052E01A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68DA9C6D183C345B0052E01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DA9C9C183C3C8D0052E01A /* AVFoundation.framework in Frameworks */,
+				68DA9C9A183C38280052E01A /* AudioToolbox.framework in Frameworks */,
+				68DA9C75183C345D0052E01A /* UIKit.framework in Frameworks */,
+				68DA9C77183C345D0052E01A /* Foundation.framework in Frameworks */,
+				68DA9C79183C345D0052E01A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68DA9C65183C345B0052E01A = {
+			isa = PBXGroup;
+			children = (
+				68DA9C9B183C3C8D0052E01A /* AVFoundation.framework */,
+				68DA9C99183C38280052E01A /* AudioToolbox.framework */,
+				68DA9C7A183C345D0052E01A /* FoleyGen */,
+				68DA9C73183C345D0052E01A /* Frameworks */,
+				68DA9C71183C345D0052E01A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68DA9C71183C345D0052E01A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68DA9C70183C345D0052E01A /* FoleyGen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68DA9C73183C345D0052E01A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68DA9C74183C345D0052E01A /* UIKit.framework */,
+				68DA9C76183C345D0052E01A /* Foundation.framework */,
+				68DA9C78183C345D0052E01A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68DA9C7A183C345D0052E01A /* FoleyGen */ = {
+			isa = PBXGroup;
+			children = (
+				68DA9C83183C345D0052E01A /* FGAppDelegate.h */,
+				68DA9C84183C345D0052E01A /* FGAppDelegate.m */,
+				68DA9C86183C345D0052E01A /* MainStoryboard.storyboard */,
+				68DA9C89183C345D0052E01A /* FGViewController.h */,
+				68DA9C8A183C345D0052E01A /* FGViewController.m */,
+				68DA9C7B183C345D0052E01A /* Supporting Files */,
+			);
+			path = FoleyGen;
+			sourceTree = "<group>";
+		};
+		68DA9C7B183C345D0052E01A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68DA9C91183C37840052E01A /* boing.wav */,
+				68DA9C92183C37840052E01A /* iHaveUnderstanding.wav */,
+				68DA9C93183C37840052E01A /* pop.wav */,
+				68DA9C94183C37840052E01A /* tweet.wav */,
+				68DA9C7C183C345D0052E01A /* FoleyGen-Info.plist */,
+				68DA9C7D183C345D0052E01A /* InfoPlist.strings */,
+				68DA9C80183C345D0052E01A /* main.m */,
+				68DA9C82183C345D0052E01A /* FoleyGen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68DA9C6F183C345B0052E01A /* FoleyGen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DA9C8E183C345D0052E01A /* Build configuration list for PBXNativeTarget "FoleyGen" */;
+			buildPhases = (
+				68DA9C6C183C345B0052E01A /* Sources */,
+				68DA9C6D183C345B0052E01A /* Frameworks */,
+				68DA9C6E183C345B0052E01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoleyGen;
+			productName = FoleyGen;
+			productReference = 68DA9C70183C345D0052E01A /* FoleyGen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68DA9C67183C345B0052E01A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 68DA9C6A183C345B0052E01A /* Build configuration list for PBXProject "FoleyGen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68DA9C65183C345B0052E01A;
+			productRefGroup = 68DA9C71183C345D0052E01A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68DA9C6F183C345B0052E01A /* FoleyGen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68DA9C6E183C345B0052E01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DA9C7F183C345D0052E01A /* InfoPlist.strings in Resources */,
+				68DA9C88183C345D0052E01A /* MainStoryboard.storyboard in Resources */,
+				68DA9C95183C37840052E01A /* boing.wav in Resources */,
+				68DA9C96183C37840052E01A /* iHaveUnderstanding.wav in Resources */,
+				68DA9C97183C37840052E01A /* pop.wav in Resources */,
+				68DA9C98183C37840052E01A /* tweet.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68DA9C6C183C345B0052E01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DA9C81183C345D0052E01A /* main.m in Sources */,
+				68DA9C85183C345D0052E01A /* FGAppDelegate.m in Sources */,
+				68DA9C8B183C345D0052E01A /* FGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68DA9C7D183C345D0052E01A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68DA9C7E183C345D0052E01A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68DA9C86183C345D0052E01A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68DA9C87183C345D0052E01A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68DA9C8C183C345D0052E01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68DA9C8D183C345D0052E01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68DA9C8F183C345D0052E01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoleyGen/FoleyGen-Prefix.pch";
+				INFOPLIST_FILE = "FoleyGen/FoleyGen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68DA9C90183C345D0052E01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoleyGen/FoleyGen-Prefix.pch";
+				INFOPLIST_FILE = "FoleyGen/FoleyGen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68DA9C6A183C345B0052E01A /* Build configuration list for PBXProject "FoleyGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DA9C8C183C345D0052E01A /* Debug */,
+				68DA9C8D183C345D0052E01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DA9C8E183C345D0052E01A /* Build configuration list for PBXNativeTarget "FoleyGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DA9C8F183C345D0052E01A /* Debug */,
+				68DA9C90183C345D0052E01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68DA9C67183C345B0052E01A /* Project object */;
+}
